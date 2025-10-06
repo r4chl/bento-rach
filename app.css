@@ -19,6 +19,7 @@
   /* Fonts Color */
   --fg: #3a3a3a; /* Foreground color */
   --sfg: #494949; /* Sceondary Foreground color */
+  --hfg: #f0e9f9; /* Hover Foreground color */
 
   /* Light Colors  */
   --accent: #57a0d9; /* Hover color */
@@ -42,6 +43,7 @@
   /* Fonts Color */
   --fg: #ddd2ea; /* Foreground color */
   --sfg: #a69cc3; /* Secondary Foreground color */
+  --hfg: #f0e9f9; /* Hover Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -275,7 +277,7 @@ body {
   background-color: var(--accent);
 }
 .button:hover svg {
-  stroke: var(--sfg);
+  stroke: var(--hfg);
 }
 
 .listsContainer {
@@ -323,7 +325,7 @@ body {
 }
 .listItem:hover {
   background-color: var(--accent);
-  color: var(--sfg);
+  color: var(--hfg);
 }
 
 /* M E D I A - Q U E R I E S */
